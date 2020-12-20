@@ -1,0 +1,50 @@
+:root { 
+  --white: white;
+  --dark-grey: darkgrey;
+  --sandy-brown: sandybrown;
+  
+  --black:black;
+  --light-grey: lightgrey;
+  --wheat: wheat;
+}
+.highlight{
+  background-color: sandybrown;
+  color: white;
+  padding: 0 0.3em;
+  }
+main nav {
+  grid-area: main;
+  background: wheat;
+  padding: 0 0.5em;
+}
+ .top{
+  background: url('/img/chicken.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0em;
+}
+h1{
+  font-size: 3em;
+  color: white
+}
+h2 {
+  color: sandybrown;
+}
+.main-menu {
+  background-color: #f6f5f3;
+  font-size: 1em;
+  list-style: none;
+  padding: 1.5em; 
+  display: flex;
+  justify-content: space-between; 
+}
+.content-block{
+padding: 1em;
+}
